@@ -1,0 +1,6 @@
+venv
+images
+videos
+private
+.idea
+__pycache__/
