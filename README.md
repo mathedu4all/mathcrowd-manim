@@ -19,7 +19,7 @@
 
 ```
 
-`build.sh` example:
+`render.sh` example:
 
 ```bash
 #!/bin/bash
