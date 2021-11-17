@@ -2,3 +2,13 @@ stages:
   - build
   - run
 
+build:
+  stage: build
+  script:
+    - docker build -t cloud.mathcrowd.cn:5001/mathcrowd-manim .
+    - docker push cloud.mathcrowd.cn:5001/mathcrowd-manim
+
+run:
+  stage: run
+  script:
+    - docker run -v /opt/fonts:/usr/local/share/fonts -v /opt/manim-exports:/opt/mathcrowd-manim/outputs cloud.mathcrowd.cn:5001/mathcrowd-manim

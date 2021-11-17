@@ -2,14 +2,14 @@
 
 ## Recent Projects
 
-* [2020.05.25 arc in rectangle](project/2020.05.25.arc.in.rectangle)
+* [puzzle137.求这茬韭菜的面积](projects/puzzle137.求这茬韭菜的面积)
 
 ## Project Structure
 
 ```
 ├── manim
 ├── projects
-│   ├── [date].[project_name]
+│   ├── [ID].[project_name]
 │       ├── assets 
         ├── videos
         ├── images 
